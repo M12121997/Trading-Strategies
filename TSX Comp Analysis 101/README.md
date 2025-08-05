@@ -14,6 +14,9 @@ The notebook covers:
 - **Relative Strength Index (RSI) Analysis:** Identification of bottom-performing stocks based on RSI values.
 - **Year-to-Date (YTD) Performance Analysis:** Comparison of stock returns with sector, industry, and major market benchmarks.
 - **Visualization:** 3D DCF valuation surfaces for sensitivity analysis.
+- **Trading Signals:** The analysis identified and signaled **two potential positions** based on RSI and valuation metrics as of **August 6, 2025**.
+
+This work presents a **general market outlook** and highlights stocks that are considered **highly oversold and undervalued**, helping to identify promising investment opportunities.
 
 ---
 
@@ -24,6 +27,7 @@ The notebook covers:
 - Comparative analysis against **sector and industry averages**.
 - Automated **price target** generation with upside scenarios.
 - Interactive **3D plots** for valuation sensitivity across WACC and growth assumptions.
+- Signals generated for two trading opportunities highlighting potential undervaluation or reversal.
 
 ---
 
@@ -33,4 +37,16 @@ The notebook covers:
 2. Install required Python packages:
    ```bash
    pip install pandas numpy matplotlib yfinance tabulate plotly pytz
+Open the notebook TSX237.ipynb in Jupyter Notebook or JupyterLab.
 
+Run the cells sequentially to reproduce the analysis.
+
+Prerequisites
+Python 3.7+
+
+Internet connection for live data retrieval via Yahoo Finance.
+
+Basic familiarity with financial concepts such as DCF, WACC, and RSI.
+
+Contributing
+Contributions and suggestions are welcome. Please submit issues or pull requests to improve functionality, add new features, or fix bugs.
